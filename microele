@@ -1,0 +1,41 @@
+pulse is a rapid, transient change of a signal from a baseline value to a certain value and after which there 
+is a rapid drop to the baseline value.
+
+carrier is a train of pulses
+
+pulse modultion- analog and digital.
+
+PULSE AMPLITUDE MODULATION
+- Signal is sampled at regular intervals
+
+PAM APPLICATIONS- Ethernet comms., USB Version 2, Graphics Double Data Rate 6 Synchronous Dynamic, photo biology
+
+PULSE WIDTH MODULATION- Here the ampitude remains constant but the length of each pulse is varied in accordance with instananeous value of the analog signal.
+
+PWD applications- Contro servo motors, voltage regulation, used in buck anfd boost convrters, audio amplifiers
+
+Bulk converters is a dc2dc converters where the output voltage is lower than the input voltage and Boost is vice versa while motors control displacement and velocity.
+
+PULSE POSITION MODULATION - fixed amplitude and width whereas the position of each pulse is varied as per instanteneous value of the signal.
+
+PPM APPLCATIONS- air traffic control systems, remote controlled cars and millitary comms.
+
+Pulse code modulation is whereby the anolog signal is converted into digital signal by using a digital code.
+
+How to claculate bitrate.
+
+At the decoder side the low pass filter isused to eliminate noise that have frequencies abbove fm and inside the lowpass filter we have a smoothing capacitor.
+
+Delat modulation is a variant  or extension of PCM. 
+
+Advanatage of delta modulation- it has a lower bitrate and disadvantage is that it inaccurate for larger changes in the original signal ie theres no differnve for a signal dropping rapidly and the one which is droppping not immideately.
+
+HOW A DELTA MODULATOR WORKS
+it has three major components which are comparator, delay unit and staircase maker.
+
+THe comparator is device that gives a defined output when one input is higher than the other input and another defined output when the first output is less than the second input.
+
+The staircase maker it uses the zeros and the ones. It has two inputs delta code and x(t-1).
+
+The number of bits in delta modulations detemines how fast the signal is modulated. And it helps to be more accurate.
+
